@@ -75,8 +75,4 @@ class GroovyScriptRunner {
 		}
 		return binding;
 	}
-	
-	private String getThreadName() {
-		return GroovyScriptRunner.class.getSimpleName() + "::'" + groovyScript.getAbsolutePath() + "'";
-	}
 }
