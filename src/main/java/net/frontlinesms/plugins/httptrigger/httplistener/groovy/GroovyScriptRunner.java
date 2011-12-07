@@ -41,7 +41,7 @@ class GroovyScriptRunner {
 		this.boundObjects = boundObjects;
 	}
 
-//> ISTANCE METHODS	
+//> INSTANCE METHODS	
 	public ResponseType run() {
 		Binding binding = getBinding();
 		GroovyShell shell = new GroovyShell(binding);
