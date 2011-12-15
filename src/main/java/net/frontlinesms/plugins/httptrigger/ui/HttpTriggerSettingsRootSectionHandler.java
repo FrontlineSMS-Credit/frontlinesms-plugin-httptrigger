@@ -41,6 +41,8 @@ public class HttpTriggerSettingsRootSectionHandler extends BaseSectionHandler im
 		this.originalValues.put(SECTION_ITEM_AUTO_START, isAutoStart);
 	}
 	
+	public void deinit() {}
+	
 	/**
 	 * Called when the "Auto start" checkbox has changed state
 	 * @param autoStart
